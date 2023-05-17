@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none ;
+    list-style-type: none;
+    text-transform: none;
+}
+/*Partie header*/
+.fa-solid{
+   font-size: 2rem;
+   color: #EB8F9B;
+}
+
+
+.logo{
+    width: 93%;
+    align-items: center;
+}
+
+.effetTexte{
+    font-size: 1rem;
+}
+
+.TitreH2{
+    font-size: 2vw;
+}
+
+a{
+    text-decoration: none;
+    list-style: none ;
+    list-style-type: none; 
+     color: black;
+}
+/*Partie Baniere*/
+.baniere{
+    height: 73vh;
+    width: 100%;
+}
+
+.Text{
+    width: 100%;
+    padding-left: 3%;
+    padding-top: 1%;
+    background-color: #EB8F9B;
+    font-size: 2vw;
+    border: none;
+    
+}
+
+.divInputrecherche{
+width: 100%;
+}
+
+
+.textBaniere{
+ color: white;
+ text-align: center;
+ font-size: 1.5vw;
+ 
+}
+.textBaniereH{
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.divtextbanniere{
+ margin: 0 auto;
+}
+
+.ImgBack{
+    background-image: url("image/background.jpg");
+    width: 100%;
+    height:80vh;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+/* Partie body*/
+.body{
+    margin: 1%;
+}
+.pointiler{
+    width: 90%;
+    height: 20vh;
+   
+    
+    border-top:1px dashed;
+    border-left:1px dashed;
+    border-right:1px dashed;
+    border-color: black;
+}
+.tailleDivText{
+    width: 90%;
+    margin-left: 4.5vw;
+}
+
+.plogo{
+    margin-top: 8%;
+    color: #EB8F9B;
+    font-size: 1vw;
+}
+
+.pSouslogo{
+    
+    
+    color: gray;
+    font-weight: 400;
+}
+
+
+.pcolor{
+    color: #EB8F9B;
+ font-weight: 400;
+}
+
+
+/* Footer partie*/
+
+footer{
+    width: 100%;
+    height: 24vh;
+    background-color: #2C404E;
+}
+.pFooter{
+    color: white;
+    font-weight: 500;
+}
+
+
+.effet:hover{
+    color: black;
+}
+.effetTexte:hover{
+    color:#EB8F9B ;
+}
+.pFooter:hover{
+    color:#EB8F9B ;
+}
+
+::placeholder { 
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+  }
+/*partie serveur dedier */
+
+.talleDivP{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tailleDivText2{
+    width: 89%;
+    margin-left: 6vw;
+}
+
+.TailledivDedier{
+    width: 25%;
+    height: 22vw;
+    border-top:1px dashed;
+    border-left:1px dashed;
+    border-right:1px dashed;
+    border-bottom: 1px dashed;
+    border-color: black;
+}
+
+.tailleDivCaré{
+    width: 90%;
+    height: 20vh;
+}
+
+.h3caré2{
+    font-size: 0.9em;
+    text-align: center;
+    background-color: #2C404E;
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    padding: 5% 0% 5% 0;
+}
+
+.h3caré {
+    font-size: 0.9em;
+    text-align: center;
+    background-color: #2C404E;
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    padding: 5% 0% 5% 0;
+}
+
+.liste{
+  font-size: 1.5vw;
+    color: gray;
+}
+.h3prix{
+    font-size: 2vw;
+}
+.but{
+    background-color: #EB8F9B;
+    color: white;
+    border-radius: 0.5vw;
+    display: flex;
+    padding: 2% 29% 2% 28%;
+    
+}
+
+
+@media (max-width: 950px) {
+
+.topbar{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.tailleDivText2{
+    display: flex;
+    flex-direction: column;
+}
+.tailleDivText{
+    display: flex;
+    flex-direction: column;
+}
+
+.pSouslogo{
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    width: 100%;
+    height: 67vh;
+    background-color: #2C404E;
+}
+.plogo{
+    font-size: 1em;
+}
+
+
+.textBaniereH{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.textBaniere{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+.Text {
+    width: 100%;
+    padding-left: 3%;
+    padding-top: 1%;
+    background-color: #EB8F9B;
+    font-size: 1em;
+    border: none;
+}
+
+.ImgBack {
+    background-image: url(image/background.jpg);
+    width: 100%;
+    height: 49vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.TitreH2 {
+    font-size: 5vw;
+}
+.dimention{
+    display: flex;
+    width: 43vw;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3%;
+}
+.logo {
+    width: 68%;
+}}
