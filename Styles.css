@@ -41,10 +41,11 @@ a{
 .Text{
     width: 100%;
     padding-left: 3%;
-    padding-top: 1%;
+    padding-top: 0.5%;
     background-color: #EB8F9B;
     font-size: 2vw;
     border: none;
+    padding-bottom: 0.5%;
     
 }
 
@@ -94,6 +95,7 @@ width: 100%;
 .tailleDivText{
     width: 90%;
     margin-left: 4.5vw;
+    text-align: center;
 }
 
 .plogo{
@@ -120,7 +122,7 @@ width: 100%;
 
 footer{
     width: 100%;
-    height: 24vh;
+    height: 17vh;
     background-color: #2C404E;
 }
 .pFooter{
@@ -128,20 +130,23 @@ footer{
     font-weight: 500;
 }
 
-
-.effet:hover{
+.menu.active .effet,
+.menu:hover .effet {
     color: black;
 }
-.effetTexte:hover{
-    color:#EB8F9B ;
+
+.menu.active .effetTexte,
+.menu:hover .effetTexte {
+    color: #EB8F9B;
 }
 .pFooter:hover{
-    color:#EB8F9B ;
+    color: #EB8F9B ;
 }
 
 ::placeholder { 
     color: rgb(255, 255, 255);
     opacity: 0.7;
+    
   }
 /*partie serveur dedier */
 
@@ -156,8 +161,7 @@ footer{
 }
 
 .TailledivDedier{
-    width: 25%;
-    height: 22vw;
+    width: 32%;
     border-top:1px dashed;
     border-left:1px dashed;
     border-right:1px dashed;
@@ -165,9 +169,19 @@ footer{
     border-color: black;
 }
 
+ul{
+  margin: auto;
+  padding: 3%;
+  
+  
+}
+.sect{
+    
+}
+
 .tailleDivCaré{
+    margin-left: 6%;
     width: 90%;
-    height: 20vh;
 }
 
 .h3caré2{
@@ -190,24 +204,72 @@ footer{
     padding: 5% 0% 5% 0;
 }
 
+
+
 .liste{
   font-size: 1.5vw;
     color: gray;
 }
 .h3prix{
-    font-size: 2vw;
+    margin-top: 8%;
+    font-size: 1.5vw;
+    margin-left: 8vw;
 }
 .but{
+    margin-left: 0%;
     background-color: #EB8F9B;
     color: white;
-    border-radius: 0.5vw;
-    display: flex;
-    padding: 2% 29% 2% 28%;
+    /* border-radius: 0.5vw; */
+    width: 90%;
+    padding: 0.5vw 9.2vw 0.5vw;
+    font-size: 1.5vw;
+    margin-right: 15%;
+}
+
+.butbis {
+    margin-left: 0%;
+    background-color: #EB8F9B;
+    color: white;
+    /* border-radius: 0.5vw; */
+    width: 90%;
+    padding: 0.5vw 9.2vw 0.5vw;
+    font-size: 1.5vw;
+    margin-right: 15%;
+}
+
+
+/* Partie serveur mutaliser*/
+.liss{
+    color: gray;
+    font-size: 1.3vw;
+}
+.lissP{
+    color: gray;
+    font-size: 1.3vw;
     
 }
 
-
 @media (max-width: 950px) {
+   
+    .butbis{
+        margin-left: 0%;
+    background-color: #EB8F9B;
+    color: white;
+    width: 90%;
+    padding: 1.5vw 33.2vw 1.5vw;
+    font-size: 1.5vw;
+    margin-right: 15%;
+    }
+   
+    .lissP {
+        color: gray;
+        font-size: 2.0vw;
+        margin-left: 15%;}
+   
+    .liss {
+        color: gray;
+        font-size: 2vw;
+        margin-left: 9%;}
 
 .topbar{
     display: flex;
@@ -224,7 +286,7 @@ footer{
 }
 
 .pSouslogo{
-    text-align: center;
+    
     color: gray;
     font-weight: 400;
     font-size: 1em;
@@ -282,5 +344,36 @@ footer{
     padding-bottom: 3%;
 }
 .logo {
-    width: 68%;
-}}
+    width: 100%;
+}
+.tailleDivCaré{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.TailledivDedier {
+    width: 90%;
+    border-top: 1px dashed;
+    border-left: 1px dashed;
+    border-right: 1px dashed;
+    border-bottom: 1px dashed;
+    border-color: black;
+    margin-top: 3%;
+
+
+}
+.but{
+    margin-left: 1%;
+    background-color: #EB8F9B;
+    color: white;
+    width: 90%;
+    padding: 0.5vw 26.5vw 0.5vw;
+    font-size: 3.5vw;
+   
+    
+}
+.h3prix {
+    font-size: 4vw;
+    margin-left: 22vw;
+}
+}
