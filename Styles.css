@@ -276,7 +276,7 @@ ul {
 @media (max-width: 950px) {
 
     .butbis {
-        margin-left: -1%;
+        margin-left: -2%;
         background-color: #EB8F9B;
         color: white;
         width: 90%;
@@ -403,7 +403,7 @@ ul {
         background-color: #EB8F9B;
         color: white;
         width: 90%;
-        padding: 0.5vw 26.5vw 0.5vw;
+        padding: 1.5vw 26.5vw 1.5vw;
         font-size: 3.5vw;
 
 
