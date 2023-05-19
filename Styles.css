@@ -1,44 +1,62 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    list-style: none ;
+    list-style: none;
     list-style-type: none;
     text-transform: none;
 }
-/*Partie header*/
-.fa-solid{
-   font-size: 2rem;
-   color: #EB8F9B;
+
+
+strong {
+    font-family: 'candal';
+}
+
+p {
+    font-family: 'open', sans-serif;
 }
 
 
-.logo{
+p, li {
+    font-family: 'open', sans-serif;
+}
+
+/*Partie header */
+
+.fa-solid {
+    font-size: 2rem;
+    color: #EB8F9B;
+}
+
+
+.logo {
     width: 93%;
     align-items: center;
 }
 
-.effetTexte{
+.effetTexte {
     font-size: 1rem;
+    
 }
 
-.TitreH2{
+.TitreH2 {
     font-size: 2vw;
 }
 
-a{
+a {
     text-decoration: none;
-    list-style: none ;
-    list-style-type: none; 
-     color: black;
+    list-style: none;
+    list-style-type: none;
+    color: black;
 }
+
 /*Partie Baniere*/
-.baniere{
+.baniere {
     height: 73vh;
     width: 100%;
 }
 
-.Text{
+.Text {
     width: 100%;
     padding-left: 3%;
     padding-top: 0.5%;
@@ -46,86 +64,90 @@ a{
     font-size: 2vw;
     border: none;
     padding-bottom: 0.5%;
-    
+
 }
 
-.divInputrecherche{
-width: 100%;
+.divInputrecherche {
+    width: 100%;
 }
 
 
-.textBaniere{
- color: white;
- text-align: center;
- font-size: 1.5vw;
- 
+.textBaniere {
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+
 }
-.textBaniereH{
+
+.textBaniereH {
     color: white;
     text-align: center;
     font-size: 3vw;
 }
 
-.divtextbanniere{
- margin: 0 auto;
+.divtextbanniere {
+    margin: 0 auto;
 }
 
-.ImgBack{
+.ImgBack {
     background-image: url("image/background.jpg");
     width: 100%;
-    height:80vh;
+    height: 80vh;
     background-repeat: no-repeat;
-    
     background-size: cover;
 }
+
 /* Partie body*/
-.body{
+.body {
     margin: 1%;
 }
-.pointiler{
+
+.pointiler {
     width: 90%;
     height: 20vh;
-   
-    
-    border-top:1px dashed;
-    border-left:1px dashed;
-    border-right:1px dashed;
+
+
+    border-top: 1px dashed;
+    border-left: 1px dashed;
+    border-right: 1px dashed;
     border-color: black;
 }
-.tailleDivText{
+
+.tailleDivText {
     width: 90%;
     margin-left: 4.5vw;
     text-align: center;
 }
 
-.plogo{
+.plogo {
     margin-top: 8%;
     color: #EB8F9B;
     font-size: 1vw;
 }
 
-.pSouslogo{
-    
-    
+.pSouslogo {
+
+
     color: gray;
     font-weight: 400;
 }
 
 
-.pcolor{
+.pcolor {
     color: #EB8F9B;
- font-weight: 400;
+    font-weight: 400;
 }
 
 
 /* Footer partie*/
 
-footer{
+footer {
     width: 100%;
     height: 17vh;
     background-color: #2C404E;
 }
-.pFooter{
+
+.pFooter {
     color: white;
     font-weight: 500;
 }
@@ -139,52 +161,51 @@ footer{
 .menu:hover .effetTexte {
     color: #EB8F9B;
 }
-.pFooter:hover{
-    color: #EB8F9B ;
+
+.pFooter:hover {
+    color: #EB8F9B;
 }
 
-::placeholder { 
+::placeholder {
     color: rgb(255, 255, 255);
     opacity: 0.7;
-    
-  }
+
+}
+
 /*partie serveur dedier */
 
-.talleDivP{
+.talleDivP {
     margin-left: auto;
     margin-right: auto;
 }
 
-.tailleDivText2{
+.tailleDivText2 {
     width: 89%;
     margin-left: 6vw;
 }
 
-.TailledivDedier{
+.TailledivDedier {
     width: 32%;
-    border-top:1px dashed;
-    border-left:1px dashed;
-    border-right:1px dashed;
+    border-top: 1px dashed;
+    border-left: 1px dashed;
+    border-right: 1px dashed;
     border-bottom: 1px dashed;
     border-color: black;
 }
 
-ul{
-  margin: auto;
-  padding: 3%;
-  
-  
-}
-.sect{
-    
+ul {
+    margin: auto;
+    padding: 3%;
+
+
 }
 
-.tailleDivCaré{
+.tailleDivCaré {
     margin-left: 6%;
     width: 90%;
 }
 
-.h3caré2{
+.h3caré2 {
     font-size: 0.9em;
     text-align: center;
     background-color: #2C404E;
@@ -206,16 +227,18 @@ ul{
 
 
 
-.liste{
-  font-size: 1.5vw;
+.liste {
+    font-size: 1.5vw;
     color: gray;
 }
-.h3prix{
+
+.h3prix {
     margin-top: 8%;
     font-size: 1.5vw;
     margin-left: 8vw;
 }
-.but{
+
+.but {
     margin-left: 0%;
     background-color: #EB8F9B;
     color: white;
@@ -239,141 +262,155 @@ ul{
 
 
 /* Partie serveur mutaliser*/
-.liss{
+.liss {
     color: gray;
     font-size: 1.3vw;
 }
-.lissP{
+
+.lissP {
     color: gray;
     font-size: 1.3vw;
-    
+
 }
 
 @media (max-width: 950px) {
-   
-    .butbis{
+
+    .butbis {
         margin-left: -1%;
         background-color: #EB8F9B;
         color: white;
         width: 90%;
         padding: 1.5vw 29.2vw 1.5vw;
         font-size: 3.5vw;
-      
+
     }
-   
+
     .lissP {
         color: gray;
         font-size: 2.0vw;
-        margin-left: 15%;}
-   
+        margin-left: 15%;
+    }
+
     .liss {
         color: gray;
         font-size: 3vw;
-        margin-left: 9%;}
+        margin-left: 9%;
+    }
 
-.topbar{
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-}
-.tailleDivText2{
-    display: flex;
-    flex-direction: column;
-}
-.tailleDivText{
-    display: flex;
-    flex-direction: column;
-}
+    .topbar {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
 
-.pSouslogo{
-    
-    color: gray;
-    font-weight: 400;
-    font-size: 1em;
-}
+    .tailleDivText2 {
+        display: flex;
+        flex-direction: column;
+    }
 
-footer{
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    width: 100%;
-    height: 67vh;
-    background-color: #2C404E;
-}
-.plogo{
-    font-size: 1em;
-}
+    .tailleDivText {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .pSouslogo {
 
-.textBaniereH{
-    color: white;
-    text-align: center;
-    font-size: 2rem;
-}
+        color: gray;
+        font-weight: 400;
+        font-size: 1em;
+    }
 
-.textBaniere{
-    color: white;
-    text-align: center;
-    font-size: 1rem;
-}
-.Text {
-    width: 100%;
-    padding-left: 3%;
-    padding-top: 1%;
-    background-color: #EB8F9B;
-    font-size: 1em;
-    border: none;
-}
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        width: 100%;
+        height: 67vh;
+        background-color: #2C404E;
+    }
 
-.ImgBack {
-    background-image: url(image/background.jpg);
-    width: 100%;
-    height: 49vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-.TitreH2 {
-    font-size: 5vw;
-}
-.dimention{
-    display: flex;
-    width: 43vw;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 3%;
-}
-.logo {
-    width: 100%;
-}
-.tailleDivCaré{
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
-.TailledivDedier {
-    width: 90%;
-    border-top: 1px dashed;
-    border-left: 1px dashed;
-    border-right: 1px dashed;
-    border-bottom: 1px dashed;
-    border-color: black;
-    margin-top: 3%;
+    .plogo {
+        font-size: 1em;
+    }
 
 
-}
-.but{
-    margin-left: 1%;
-    background-color: #EB8F9B;
-    color: white;
-    width: 90%;
-    padding: 0.5vw 26.5vw 0.5vw;
-    font-size: 3.5vw;
-   
-    
-}
-.h3prix {
-    font-size: 4vw;
-    margin-left: 22vw;
-}
+    .textBaniereH {
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .textBaniere {
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .Text {
+        width: 100%;
+        padding-left: 3%;
+        padding-top: 1%;
+        background-color: #EB8F9B;
+        font-size: 1em;
+        border: none;
+    }
+
+    .ImgBack {
+        background-image: url(image/background.jpg);
+        width: 100%;
+        height: 49vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .TitreH2 {
+        font-size: 5vw;
+    }
+
+    .dimention {
+        display: flex;
+        width: 43vw;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 3%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .tailleDivCaré {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+
+    .TailledivDedier {
+        width: 90%;
+        border-top: 1px dashed;
+        border-left: 1px dashed;
+        border-right: 1px dashed;
+        border-bottom: 1px dashed;
+        border-color: black;
+        margin-top: 3%;
+
+
+    }
+
+    .but {
+        margin-left: 1%;
+        background-color: #EB8F9B;
+        color: white;
+        width: 90%;
+        padding: 0.5vw 26.5vw 0.5vw;
+        font-size: 3.5vw;
+
+
+    }
+
+    .h3prix {
+        font-size: 4vw;
+        margin-left: 22vw;
+    }
 }
