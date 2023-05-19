@@ -167,7 +167,7 @@ footer {
 }
 
 ::placeholder {
-    color: rgb(255, 255, 255);
+    color: #FFC0CA;
     opacity: 0.7;
 
 }
@@ -349,7 +349,7 @@ ul {
     .Text {
         width: 100%;
         padding-left: 3%;
-        padding-top: 1%;
+        padding-top: 0.5%;
         background-color: #EB8F9B;
         font-size: 1em;
         border: none;
