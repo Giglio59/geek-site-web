@@ -252,13 +252,13 @@ ul{
 @media (max-width: 950px) {
    
     .butbis{
-        margin-left: 0%;
-    background-color: #EB8F9B;
-    color: white;
-    width: 90%;
-    padding: 1.5vw 33.2vw 1.5vw;
-    font-size: 1.5vw;
-    margin-right: 15%;
+        margin-left: -1%;
+        background-color: #EB8F9B;
+        color: white;
+        width: 90%;
+        padding: 1.5vw 29.2vw 1.5vw;
+        font-size: 3.5vw;
+      
     }
    
     .lissP {
@@ -268,7 +268,7 @@ ul{
    
     .liss {
         color: gray;
-        font-size: 2vw;
+        font-size: 3vw;
         margin-left: 9%;}
 
 .topbar{
