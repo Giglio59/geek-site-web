@@ -5,6 +5,7 @@
     list-style: none;
     list-style-type: none;
     text-transform: none;
+   
 }
 
 
@@ -35,7 +36,7 @@ p, li {
 }
 
 .effetTexte {
-    font-size: 1rem;
+    font-size: 0.8rem;
     
 }
 
@@ -184,6 +185,7 @@ footer {
     margin-left: 6vw;
 }
 
+
 .TailledivDedier {
     width: 32%;
     border-top: 1px dashed;
@@ -202,7 +204,7 @@ ul {
 
 .tailleDivCaré {
     margin-left: 6%;
-    width: 90%;
+    width: 88%;
 }
 
 .h3caré2 {
@@ -276,12 +278,12 @@ ul {
 @media (max-width: 950px) {
 
     .butbis {
-        margin-left: -2%;
-        background-color: #EB8F9B;
-        color: white;
-        width: 90%;
-        padding: 1.5vw 29.2vw 1.5vw;
-        font-size: 3.5vw;
+        margin-left: 1%;
+    background-color: #EB8F9B;
+    color: white;
+    width: 90%;
+    padding: 1.5vw 26.5vw 1.5vw;
+    font-size: 3.5vw;
 
     }
 
@@ -365,7 +367,7 @@ ul {
     }
 
     .TitreH2 {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .dimention {
